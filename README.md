@@ -78,13 +78,14 @@ ADR: 114<br>
 ACS: 169<br>
 Convert into CSV with the following structure: partida,mvp,resultado_binario,resultado_texto,kills,deaths,assists,kda,agente. Ignore dates.
 
-6. Save the final file as `stats.csv`.
+6. Save the final file as `stats.csv`. Place your stats.csv file in the same folder as the script.
 
 ## Usage
-
-    Place your stats.csv file in the same folder as the script.
-
-    Save the hybrid prediction code as valorant_predict.py.
+    
+### Packages
+```bash
+pip install pandas numpy scikit-learn xgboost 
+```
 
     Run the script:
 
