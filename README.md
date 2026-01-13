@@ -33,11 +33,12 @@ This project predicts the probability of winning the next Valorant match and rec
 - Your dataset file: stats.csv.
 
 # ¿How to export your matches in a CSV file?:
-1- Visit https://tracker.gg/valorant, search for your profile. 
-2- In the bottom part of the page, load as many matches as you want. (i recommend 100 at least)
-3- Download the page with right click on any blank space on the page.
-4- Once you have the page, go to the .htm file, search for your matches, copy and paste into a .txt file.
+-1  Visit https://tracker.gg/valorant, search for your profile. 
+-2 In the bottom part of the page, load as many matches as you want. (i recommend 100 at least)
+-3 Download the page with right click on any blank space on the page.
+-4 Once you have the page, go to the .htm file, search for your matches, copy and paste into a .txt file.
 The format would be (in the .txt file):
+
 K/D
 0.7
 DDΔ
@@ -59,7 +60,7 @@ Performance Score
 K / D / A
 9 / 17 / 5
 
-5- since you have that, go to Gemini (i use gemini for personal prefference), upload the .txt file, put this command:
+-5 since you have that, go to Gemini (i use gemini for personal prefference), upload the .txt file, put this command:
 where the variables are:
 agente: Chamber
 Competitive • 1yr ago
