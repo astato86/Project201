@@ -91,12 +91,12 @@ Convert into CSV with the following structure: partida,mvp,resultado_binario,res
 ### Linux / Mac
 
 ```bash
-python valorant_predict.py
+python RankedPredict.py
 ```
 ### Windows
 
 ```bash
-python valorant_predict.py
+python RankedPredict.py
 ```
 ## Output 
 Final predictions for match 201 (Top 3 agents per map):
