@@ -84,21 +84,31 @@ Convert into CSV with the following structure: partida,mvp,resultado_binario,res
     
 ### Packages
 ```bash
-pip install pandas numpy scikit-learn xgboost 
+pip install pandas numpy scikit-learn xgboost torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 ```
 
-    Run the script:
-
-### Linux / Mac
+### Run the script:
+Is it recommened to create a Virtual Environment:
+##### Linux/Mac
+```bash
+python -m venv valorant-env 
+```
+```bash
+source valorant-env/bin/activate
+```
+#### Windows
+```bash
+python -m venv valorant-env
+```
+```bash
+valorant-env\Scripts\activate
+```
+### Run:
 
 ```bash
 python RankedPredict.py
 ```
-### Windows
 
-```bash
-python RankedPredict.py
-```
 ## Output 
 Final predictions for match 201 (Top 3 agents per map):
 
