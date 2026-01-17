@@ -2,8 +2,8 @@
 
 ## Overview
 This project predicts the probability of winning the next Valorant match and recommends the **top 3 agents per map** based on:
-- **Temporal patterns (LSTM in PyTorch)** → learns win/loss streaks and recent performance trends.
-- **Tabular features (XGBoost in scikit-learn)** → evaluates map, agent, kills, deaths, assists, and predicts both win probability and expected KDA.
+- **Temporal patterns ** → learns win/loss streaks and recent performance trends.
+- **Tabular features ** → evaluates map, agent, kills, deaths, assists, and predicts both win probability and expected KDA.
 - **Hybrid combination** → averages both models’ probabilities to provide a more realistic recommendation.
 
 ## Workflow
