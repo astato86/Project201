@@ -47,7 +47,7 @@ cd %folder%
 ```bash
 python launch.py
 ```
-##### (Linux/Mac)
+#### Linux/Mac only
 Note: if this not work, go to the previous virtual environment: 
 ```bash
 python -m venv .venv
@@ -55,6 +55,15 @@ source .venv/bin/activate
 ```
 7. select the option 2, put the same ID as the former ID.txt
 8. Here you go, you have the .csv file to your folder with the same ID name, result: ID.csv
+
+## Using on Windows:
+1. Open terminal, go to your folder location
+2. Launch the launch.py:
+```bash
+python launch.py
+```
+3. Choose option 1 and put the same ID name of the former .csv file (your riot ID)
+4. Choose the map putting only the name!
 
 ## Using on Linux/Mac:
 1. Open terminal, go to your folder location
