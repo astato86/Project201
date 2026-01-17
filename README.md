@@ -41,7 +41,7 @@ cd %folder%
 1. Visit [tracker.gg/valorant](https://tracker.gg/valorant) and search for your profile.  
 2. Scroll down and load as many matches as you want (recommended: at least 100).  
 3. Download the page by right-clicking on any blank space and saving it.  
-4. Open the `.htm` file, copy all and put in a .txt file, with your riot ID as the name of the .txt file.
+4. Open the `.htm` file, copy all (Ctrl+A) and put in a .txt file, with your riot ID as the name of the .txt file.
 5. Put the ID.txt file into the same folder as the entire project
 6. Execute the launch.py  with
 ```bash
@@ -57,7 +57,7 @@ source .venv/bin/activate
 8. Here you go, you have the .csv file to your folder with the same ID name, result: ID.csv
 
 ## Using on Windows:
-1. Open terminal, go to your folder location
+1. Open CMD, go to your folder location
 2. Launch the launch.py:
 ```bash
 python launch.py
@@ -87,12 +87,13 @@ Map: Ascent
   - Reyna | Win Probability 0.65 | Expected KDA 1.95
   - Killjoy | Win Probability 0.60 | Expected KDA 1.80
 ## Considerations
-1. The model will be predicting matches according to the loaded matches from the .csv file, is it recommended to update the .csv file with every match you play for better results, for now you must to do manually overwritting the .csv file yourself, you must write a new line in the .csv file with the format you'll be seeing.
+1. The model will be predicting matches according to the loaded matches from the .csv file, it is recommended to update the .csv file with every match you play for better results, for now you must to do manually overwritting the .csv file yourself, you must write a new line in the .csv file with the format you'll be seeing.
 2. The model IS NOT 100% perfect, because is a alfa version, speaking of my own research i guess a 65%-80% correct predictons.
+3. If the model says the next match will be all losses, i recommend choosing a new agent that you have never played with on that map.
 
 ### Knowed future proyections
 1. UI
-2. Learning from the actual match
+2. Learning from the recemt match
 3. Updating the csv file automatically
 4. GPU use
 ## Shotouts
